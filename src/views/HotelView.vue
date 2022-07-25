@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="hotel">
     <h1>This is an about page</h1>
     <Footer></Footer>
   </div>
@@ -8,7 +8,7 @@
 import Footer from '@/components/FooterComp.vue'
 
 export default {
-name: 'AboutView',
+name: 'HotelView',
 components: {
   Footer,
     }

@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcey"]=self["webpackChunkcey"]||[]).push([[490],{7821:function(e,n,t){t.r(n),t.d(n,{default:function(){return f}});var o=t(3396);const c={class:"hotel"},r=(0,o._)("h1",null,"This is an about page",-1);function s(e,n,t,s,u,a){const i=(0,o.up)("Footer");return(0,o.wg)(),(0,o.iD)("div",c,[r,(0,o.Wm)(i)])}var u=t(8949),a={name:"HotelView",components:{Footer:u.Z}},i=t(89);const l=(0,i.Z)(a,[["render",s]]);var f=l}}]);
+//# sourceMappingURL=490.70fb9afd.js.map

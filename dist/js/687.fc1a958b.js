@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkcey"]=self["webpackChunkcey"]||[]).push([[687],{9687:function(e,n,t){t.r(n),t.d(n,{default:function(){return f}});var r=t(3396);const u={class:"adventure"},c=(0,r._)("h1",null,"This is an about page",-1);function o(e,n,t,o,s,a){const i=(0,r.up)("Footer");return(0,r.wg)(),(0,r.iD)("div",u,[c,(0,r.Wm)(i)])}var s=t(8949),a={name:"AdventureView",components:{Footer:s.Z}},i=t(89);const d=(0,i.Z)(a,[["render",o]]);var f=d}}]);
+//# sourceMappingURL=687.fc1a958b.js.map

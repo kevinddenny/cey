@@ -1,3 +1,4 @@
+
 <template>
   <div class="relax">
     <header>
@@ -69,3 +70,172 @@ components: {
     }
 }
 </script>
+<style>
+.headerImg{
+  position: relative;
+  text-align: center;
+  color: black;
+  width: 100%;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+  }
+  .headerImgText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .mainImg {
+    object-fit: cover;
+    object-position: 20% 50%;
+    width: 100%;
+    height: 200px;  
+    opacity: 0.5;
+  }
+
+  .mainP {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+  }
+
+  @media sreen and (mad-width:500px){
+    .header{
+      padding: opx 20px;
+      background-color: purple;
+    }
+  }
+  
+
+  
+p {
+      font-size:16px;
+      line-height:24px;
+      padding: 5px;
+    }
+      
+.container{
+      width:100%;
+      margin:0 auto;
+      display:flex;
+      list-style:none;
+    }
+           
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+/* Sea Blue Boxes */
+
+.column1 {
+  flex: 29%;
+  max-width: 29%;
+  margin: 15px;
+  border: solid 7px #276F8B;
+  background-color: rgb(199, 231, 242);
+  border-radius: 5px;
+}
+
+/* Golden Boxes */
+
+.column2 {
+  flex: 29%;
+  max-width: 29%;
+  margin: 15px;
+  border: solid 7px #FAB453;
+  background-color: rgb(255, 255, 222);
+  border-radius: 5px;
+}
+
+/* Green Boxes */
+
+.column3 {
+  flex: 29%;
+  max-width: 29%;
+  margin: 15px;
+  border: solid 7px #357960;
+  background-color: rgb(241, 250, 241);
+  border-radius: 5px;
+}
+
+#boximg{
+  vertical-align: middle;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.card{
+      padding:15px 25px;
+    }
+      
+.columnimg{
+      max-width:100%;  
+    }
+  
+@media screen and (max-width: 768px){
+
+        .container{
+          width:100%;
+          margin:0 auto;
+          display:flex;
+          list-style:none;
+        }
+               
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    .column1 {
+      flex: 100%;
+      max-width: 100%;
+      margin: 15px;
+      border: solid 7px #276F8B;
+      background-color: rgb(199, 231, 242);
+      border-radius: 5px;
+    }
+    
+    /* Golden Boxes */
+    
+    .column2 {
+      flex: 100%;
+      max-width: 100%;
+      margin: 15px;
+      border: solid 7px #FAB453;
+      background-color: rgb(255, 255, 222);
+      border-radius: 5px;
+    }
+    
+    /* Green Boxes */
+    
+    .column3 {
+      flex: 100%;
+      max-width: 100%;
+      margin: 15px;
+      border: solid 7px #357960;
+      background-color: rgb(241, 250, 241);
+      border-radius: 5px;
+    }
+    
+    #boximg{
+      vertical-align: middle;
+      width: 100%;
+      height: 200px;
+      border-radius: 5px;
+    }
+    
+    .card{
+          padding:15px 25px;
+        }
+          
+    .columnimg{
+          max-width:100%;  
+        }
+      }
+</style>

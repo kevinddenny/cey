@@ -1,61 +1,41 @@
 <template>
   <div class="pilgrim">
-    <header>
-      
-    </header>
-    <!-- Text needs to be within the image-->
-    <div>
-      <img src="Images/Pilgrimage.jpg" alt="Pilgrimage" />
-      <h1><b>PILGRIMAGE</b></h1>
+    <div class="headerImg">
+      <img class="mainImg" src="Images/Pilgrimage.jpg" alt="Pilgrimages" >
+      <div class="headerImgText">
+        <h1>Pilgrimages</h1>
+      </div>
     </div>
 
     <div>
       <!-- Proper content needs to be thought of and added-->
-      <p>
-        There are several locations with significant historical and religious
-        value in Sri Lanka, which is noted for its rich Buddhist culture and
+      <p class="mainP">
+        Since Sri Lanka has a rich cultural legacy, its trips often involve 
+        numerous pilgrimages to historical and cultural places. These trips are 
+        usually fun, although some of the tougher excursions might only be appealing 
+        to more intrepid travellers.There are several locations with significant 
+        historical and religious value in Sri Lanka, which is noted for its rich Buddhist culture and
         history.<br />
       </p>
 
-      <p>
-      <h3>ANURADHAPURA</h3>
-        Anuradhapura
-        City with a concentration of Buddhist temples and stupas. The city
-        provides visitors with a spiritual encounter.<br />
-      </p>
 
-      <p>
-      <h3>TEMPLE OF TOOTH </h3>
-        Known as Dalda Maligawa, it is situated in Kandy. The precious tooth of
-        Lord Buddha is kept there, making it one of the most revered Buddhist
-        pilgrimage destinations. According to legend, the tooth was snatched
-        from the cremation pyre of Buddha in 543 BC and smuggled into Sri Lanka
-        in the 4th century AD while being concealed in a princess's hair. The
-        construction of the temple lasted about a century. 1687 saw the
-        beginning of construction, which was completed in 1782. It is a large,
-        pink-painted building that is encircled by a substantial moat. Three
-        times a day—at 4.30 a.m., 10.30 a.m., and 6.30 p.m.—rituals are done.
-        Shorts are not permitted within this shrine, and shoes must be taken off
-        before entering.<br />
-      </p>
 
-      <p>
-      <h3>KATARAGAMA</h3>
-        A well-liked center of worship for the native Vedda people of Sri Lanka
-        and South India as well as for Buddhists, Muslims, Hindus, and
-        Buddhists. The primary deity is the god Muruga.<br />
-      </p>
-
-      <p>
+  <div class="row">
+    <div class="column2">
       <h3>ADAM'S PEAK </h3>
-        A pyramidal peak standing 2,243 meters (7,359 feet) tall in the center
-        of Sri Lanka. It is well-known for the Sri Pada "holy footprint," a
-        1.8-meter rock creation near the peak that is thought to represent Adam
-        in Muslim, Shiva in Hindu, and Buddha in Buddhist tradition.<br />
-      </p>
-
-      <p>
+      <img id="boximg" src="Images/adamspeak.jpg" alt="Adams peak">
+        <p>The mountain goes by several names because of its importance to 
+        the numerous people that live in the nation. <br>
+        The Sinhalese people frequently employ the Sanskrit-derived moniker 
+        Sri Pada in religious contexts; which Buddhists consider to be the Buddha's. According to 
+        Christian and Islamic beliefs, Adam's footprint, which he left while stepping onto 
+        Earth for the first time after being expelled from paradise, is what gave it its 
+        name "Adam's Peak ".</p>
+    </div>
+    <div class="column2">
       <h3>THE TEMPLE AND BOGODA BRIDGE</h3>
+      <img id="boximg" src="Images/Bogoda.jpg" alt="Bogoda bridge">
+      <p>
         An old temple and wooden bridge are located near the Hali-ela junction,
         around 30 kilometers from Bandarawela and 10 kilometers from Badulla.
         The Bogoda Bridge, which was built in the 1600s, is said to be the
@@ -63,12 +43,12 @@
         a far older past, dating back to the first century BC. On an old path
         between Badulla and Kandy, a bridge was constructed over the Gallanda
         Oya. Eleven pairs of beautifully carved pillars and a railing of
-        banisters hold the bridge in style.<br />
-      </p>
-
-      <p>
+        banisters hold the bridge in style.<br /></p>
+    </div>
+    <div class="column2">
       <h3>THE PADA YATRA</h3>
-        Pilgrimage that takes place on foot from Jaffna to Kataragama along the
+      <img id="boximg" src="Images/padayatra.jpg" alt="Pada yatra">
+        <p>Pilgrimage that takes place on foot from Jaffna to Kataragama along the
         East Coast, is one of Lanka's oldest customs. The Yatra's beginnings are
         hidden in legend. According to some tales, it all started when God
         Kataragama himself arrived on our beaches and made his way to
@@ -80,83 +60,47 @@
         god's messengers, beverages, food, hospitality, and lodging. For
         millennia, Kataragama has also received "calls" from pilgrims in other
         countries as well as India.<br />
-      </p>
+        </p>
+    </div>
+  </div>
 
-      <p>
-      <h3>DAMBEGODA</h3>
-        Avalokitheswara Bodhisattva, a statue of the Buddha that is 10 meters
-        high, situated around 1 kilometer from Maligawila. This is said to be a
-        celestial creature who choose to live on the human level in order to
-        assist common people in finding redemption. One of the sixteen most
-        revered Buddhist sites in Sri Lanka is Muthiyangana. The jawbone of Lord
-        Buddha is kept at a temple there that dates back to the fourth century
-        AD. During one of the Lord Buddha's three trips to Sri Lanka, it is said
-        that he personally blessed this location.<br />
-      </p>
-
-      <p>
+  <div class="row">
+    <div class="column2">
       <h3>MALIGAWILA</h3>
-        Located about 15 km to the south of Monaragala. It is popular for the
-        two colossal statues of Buddha, which date back to 7th century AD. Both
-        statues are carved from crystalline limestone. One of the statues is 11m
-        high and is considered to be the world's largest free standing Buddha
-        figure<br />
-      </p>
-
-      <p>
-      <h3>CAVE TEMPLE IN DOWA</h3>
-        Situated on the Badulla-Bandarawella highway, 6 kilometers from
-        Bandarawela. King Walagamba's sanctuary was the ancient cave temple
-        complex, which was tucked away among the hills. The temple features a
-        38-foot-tall rock-sculpted Buddha figure in addition to a lovely
-        decorative entryway. Additionally, there are also Kandyan-era paintings
-        that reflect different Jataka tales.<br />
-      </p>
-
-      <p>
-      <h3>BUDURUWAGALA</h3>
-        South of Wellawaya by 5 km. Literally, it refers to Buddha images. The
-        Mahayana school of philosophy is represented by the complex of seven
-        sculptures. The sculptures were created in the 10th century. There are
-        still remnants of the enormous Buddha statue's original stuccoed
-        garment, and a lengthy streak of orange paint reveals that it was
-        previously vibrantly decorated. The Bodhisattva Avalokitesvara, a
-        representative of Buddhism, is regarded to be the primary figure of the
-        trio to the Buddha's right. The female figure in the thrice-bent
-        position to the left of this white-painted figure is considered to be
-        Tara, his wife.<br />
-      </p>
+      <img id="boximg" src="Images/maligawila.jpg" alt="Maligawila">
+       <p>It is the location of numerous significant archaeological artifacts, 
+        including a free-standing, limestone Buddha statue that is 11 or 12 meters 
+        tall (36 or 39 feet 4.4 inches), according to some sources. The Avukana Buddha 
+        Statue is also supposed to be taller. Numerous visitors come to the area to see 
+        this Buddha. Additionally, it is home to the 10 meters (32 feet 9.7 in) tall Avalokitesvara 
+        statue made of limestone. These sculptures, which were found in the 1950s and repaired 
+        between 1989 and 1991, are thought to have been ordered by the prince Agghabodhi of the 
+        seventh century. [4] A historical pillar from the tenth century was also erected in Mahinda 
+        IV's tenth year of power (956-972 AD).</p>
     </div>
-
-    <div>
-      <p><strong> Things to bring on a pilgrimage or meditation.</strong>
-      <ul>
-        <li>
-          Little container that may be locked and contains your personal
-          belongings.
-        </li>
-        <li>
-          Male pilgrims wear vetti, while female pilgrims wear sari.
-        </li>
-        <li>
-          Shawl to keep warm in the evening.
-        </li>
-        <li>
-          Bottle of water.
-        </li>
-        <li>
-          For people who are sensitive to sunlight, a small umbrella.
-        </li>
-        <li>
-          Pen and notepad for keeping track of your recollections.
-        </li>
-        <li>
-          The majority of sites charge visitors to snap photos there.
-        </li>
-      </ul>
-      </p>
+    <div class="column2">
+      <h3>TEMPLE OF TOOTH </h3>
+      <img id="boximg" src="Images/toothrelic.jpg" alt="Temple of tooth">
+      <p>
+        Known as Dalda Maligawa, it is situated in Kandy. The precious tooth of
+        Lord Buddha is kept there, making it one of the most revered Buddhist
+        pilgrimage destinations. According to legend, the tooth was snatched
+        from the cremation pyre of Buddha in 543 BC and smuggled into Sri Lanka
+        in the 4th century AD while being concealed in a princess's hair.<br /></p>
     </div>
+    <div class="column2">
+      <h3>KATARAGAMA</h3>
+      <img id="boximg" src="Images/Kataragama.webp" alt="Kataragama">
+        <p>A well-liked center of worship for the native Vedda people of Sri Lanka
+        and South India as well as for Buddhists, Muslims, Hindus, and
+        Buddhists. The primary deity is the god Muruga.There is evidence of human occupancy 
+        in the Kataragama area dating back at least 125,000 years. Additionally, 
+        Mesolithic and Neolithic habitations have been documented.<br /></p>
+    </div>
+  </div>
+
    <Footer></Footer>
+  </div>
   </div>
 </template>
 <script>
@@ -169,3 +113,173 @@ components: {
     }
 }
 </script>
+<style>
+
+.headerImg{
+  position: relative;
+  text-align: center;
+  color: black;
+  width: 100%;
+  font-size: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+  }
+  .headerImgText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .mainImg {
+    object-fit: cover;
+    object-position: 20% 50%;
+    width: 100%;
+    height: 200px;  
+    opacity: 0.5;
+  }
+
+  .mainP {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+  }
+
+  @media sreen and (mad-width:500px){
+    .header{
+      padding: opx 20px;
+      background-color: purple;
+    }
+  }
+  
+
+  
+p {
+      font-size:16px;
+      line-height:24px;
+      padding: 5px;
+    }
+      
+.container{
+      width:100%;
+      margin:0 auto;
+      display:flex;
+      list-style:none;
+    }
+           
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+/* Sea Blue Boxes */
+
+.column1 {
+  flex: 29%;
+  max-width: 29%;
+  margin: 15px;
+  border: solid 7px #276F8B;
+  background-color: rgb(199, 231, 242);
+  border-radius: 5px;
+}
+
+/* Golden Boxes */
+
+.column2 {
+  flex: 29%;
+  max-width: 29%;
+  margin: 15px;
+  border: solid 7px #FAB453;
+  background-color: rgb(255, 255, 222);
+  border-radius: 5px;
+}
+
+/* Green Boxes */
+
+.column3 {
+  flex: 29%;
+  max-width: 29%;
+  margin: 15px;
+  border: solid 7px #357960;
+  background-color: rgb(241, 250, 241);
+  border-radius: 5px;
+}
+
+#boximg{
+  vertical-align: middle;
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.card{
+      padding:15px 25px;
+    }
+      
+.columnimg{
+      max-width:100%;  
+    }
+  
+@media screen and (max-width: 768px){
+
+        .container{
+          width:100%;
+          margin:0 auto;
+          display:flex;
+          list-style:none;
+        }
+               
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    .column1 {
+      flex: 100%;
+      max-width: 100%;
+      margin: 15px;
+      border: solid 7px #276F8B;
+      background-color: rgb(199, 231, 242);
+      border-radius: 5px;
+    }
+    
+    /* Golden Boxes */
+    
+    .column2 {
+      flex: 100%;
+      max-width: 100%;
+      margin: 15px;
+      border: solid 7px #FAB453;
+      background-color: rgb(255, 255, 222);
+      border-radius: 5px;
+    }
+    
+    /* Green Boxes */
+    
+    .column3 {
+      flex: 100%;
+      max-width: 100%;
+      margin: 15px;
+      border: solid 7px #357960;
+      background-color: rgb(241, 250, 241);
+      border-radius: 5px;
+    }
+    
+    #boximg{
+      vertical-align: middle;
+      width: 100%;
+      height: 200px;
+      border-radius: 5px;
+    }
+    
+    .card{
+          padding:15px 25px;
+        }
+          
+    .columnimg{
+          max-width:100%;  
+        }
+      }
+</style>

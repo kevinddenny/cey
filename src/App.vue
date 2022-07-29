@@ -5,6 +5,7 @@
 
 <script>
 import Navigation from '@/components/NavigationComp.vue'
+import "./assets/app.scss";
 
 export default {
 name: 'App',

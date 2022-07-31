@@ -35,9 +35,9 @@
                           <li><router-link to="/news">Tourism News</router-link></li>
                           <li><router-link to="/about">About Us </router-link></li>
                           <li><router-link to="/contact">Contact Us </router-link></li>
-                         
+                          <li class="navItem"><router-link to="/login">Account </router-link></li>
                           <!-- <button><router-link to="/login">Sign In</router-link></button> -->
-                          <button @click="logout">Logout</button>
+                          <!-- <button @click="logout">Logout</button> -->
                         </ul>
                     </div>
   </nav>

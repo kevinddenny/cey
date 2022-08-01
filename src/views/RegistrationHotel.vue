@@ -17,7 +17,7 @@
            
         
          <router-link class="switchLinks"  to="/RegTourist">Tourist</router-link>
-         
+  <!--============================Input fields=======================================-->         
         <br>
         <div class="input">
           <input
@@ -90,7 +90,7 @@
         <button class="action-button" @click="register">Register</button>
         </div>
         <p class="acc">Already have an account?</p>
-       
+       <!--============================ End of Input fields=======================================-->  
         <router-link class="links"  to="/login">Log In</router-link>
       </div>
     </div>
@@ -152,6 +152,7 @@ components: {
 //   }
 // },
 methods: {
+  /*==============================================Register Method================================= */
   register() {
     this.v$.$validate() 
       if (!this.v$.$error){

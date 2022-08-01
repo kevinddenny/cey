@@ -18,7 +18,7 @@
            
         
          <router-link class="switchLinks"  to="/RegTourist">Tourist</router-link>
-         
+ <!--============================Input fields=======================================-->        
         <br>
         <div class="input">  
         <input 
@@ -74,51 +74,13 @@
 
         <p>Already have an account?</p>
         <router-link class="links" to="/login">Log In</router-link>
-
+<!--============================ End of Input fields=======================================-->  
              
         
       </div>
    
 
 
-      <!-- <h2>Registration</h2>
-        <button type="submit">
-          <router-link to="/RegHotel">Hotel</router-link>
-        </button>
-        <button type="submit">
-          <router-link to="/RegTourist">Tourist</router-link>
-        </button>
-        <br>
-        <input type="text" placeholder="Username" v-model="state.username"/>
-        <br>
-        <span v-if="v$.username.$error">
-        {{ v$.username.$errors[0].$message}}
-        </span>
-        <br>
-        <br>
-        <input type="email" placeholder="Email" v-model="state.email"/>
-        <br>
-        <span v-if="v$.email.$error">
-        {{ v$.email.$errors[0].$message}}
-        </span>
-        <br>
-        <br>
-        <input type="password" placeholder="Password" v-model="state.password"/>
-        <br>
-        <span v-if="v$.password.$error">
-        {{ v$.password.$errors[0].$message}}
-        </span>
-        <br>
-        <br>
-        <button @click="register">Register</button>
-         By creating an account you agree to our
-          <a href="TermsAndPrivacy.html">Terms & Privacy</a>
-       
-        
-
-        <p>Already have an account?</p>
-        <button type="submit"><router-link to="/login">Log In</router-link></button>
-        -->
          </div>
          
          </div>
@@ -180,6 +142,7 @@ components: {
 //   }
 // },
 methods: {
+  /*==============================================Register Method================================= */
   register() {
     this.v$.$validate() 
       if (!this.v$.$error) {
@@ -215,6 +178,7 @@ methods: {
 }
 
 </script>
+
 <style>
 span {
   color: red;

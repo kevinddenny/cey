@@ -71,6 +71,7 @@ data(){
   }
 },
 methods:{
+  /*==============================================Login Method================================= */
   login() {
     firebase.auth().signInWithEmailAndPassword(this.email, this.password)
     .then(
